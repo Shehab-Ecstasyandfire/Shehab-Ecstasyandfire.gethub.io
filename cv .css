@@ -1,0 +1,153 @@
+body {
+    background-color: #FFF9E6;
+}
+/* use this block to style
+navbar elements */
+.navbar{
+    display: flex;
+    justify-content: left;
+    border-radius: 3rem;
+    border: 1.5pt solid;
+    height: 6rem;
+    width: 80%vw;
+    margin-top: 1.7rem;
+}
+.profilepic{
+    border-radius: 100%;
+    height: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.6rem;
+}
+#nametag{
+    display: block;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
+}
+h1 {
+    /* color: #4C2103; */
+    margin-left: 4%;
+    line-height: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#lastname{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#career{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+    margin-bottom: auto;
+}
+#navbtns{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 5rem;
+    padding-left: 3.5rem;
+    border-left: 1.2pt solid;
+}
+.Navbtn{
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    border: 1pt solid;
+    border-radius: 1.5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin-right: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 6rem;
+    height: 2rem;
+  }
+/* end of navbar ## */
+
+/* use this block to control
+content properties */
+.content-font{
+    font-size: 12pt;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3dc9d;
+    padding-top: rem;
+    border-radius: 1.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    width: 34rem;
+ }
+#philosophy{
+    margin-top: 2rem;
+ }
+.bold-snips{
+    font-style: italic;
+    font-weight: bold;
+ }
+.skill-content-font{
+    font-size: 9pt;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;  
+    color: #fff9e6;
+    background-color: #31512f;
+    border-radius: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-bottom: auto;
+    line-height: 1.25rem;
+    
+ }
+#sem{
+    padding-left: 1.5rem;
+}
+.content-block{
+
+ }
+.content-heading{
+     font-size: 17pt;
+     font-family: 'Poppins', sans-serif;
+     font-weight: bold;
+     margin-top: 0rem;
+     margin-bottom: 0.3rem;
+ }
+.skill-sections{
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+ /* end of content properties */
+ 
+ /* use this block to control
+  left & right page sections */
+ .pgsections{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+ }
+.rsection{
+    width: 35vw;
+
+}
+.lsection{
+    border-left: 1.2pt solid;
+    padding-left: 1.6rem;
+    width: 15rem;
+    margin-bottom: auto;
+}
+#lblush{
+    width: 120px;
+}
